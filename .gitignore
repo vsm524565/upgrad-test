@@ -1,0 +1,10 @@
+cat <<EOF >> .gitignore
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+# If you have SSH keys or other secrets, do NOT commit them
+*.pem
+*.key
+EOF
+
